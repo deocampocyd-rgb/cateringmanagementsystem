@@ -1,35 +1,29 @@
 {
-  "name": "frontend",
+  "name": "my-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-google-maps/api": "^2.20.8",
-    "@stripe/stripe-js": "^9.5.0",
-    "axios": "^1.14.0",
-    "jwt-decode": "^4.0.0",
-    "qrcode.react": "^4.2.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-router-dom": "^7.12.0",
-    "stripe": "^22.1.1",
-    "swiper": "^12.1.4",
-    "vite": "^4.5.14"
+    "axios": "^1.13.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.30.3",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0"
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
   }
 }
